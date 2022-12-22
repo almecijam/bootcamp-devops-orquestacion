@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: postgres-cm
+  namespace: ejercicio-01
+data:
+  POSTGRES_USER: postgres
+  POSTGRES_PASSWORD: postgres
