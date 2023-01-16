@@ -38,7 +38,7 @@ kubectl apply -f paso1/deployment.yaml
 kubectl apply -f paso1/service.yaml
 ```
 
-### 3 - Creamos los ficheros del paso 2 y aplicamos:
+### 4 - Creamos los ficheros del paso 2 y aplicamos:
 
 - configmap.yaml
 
@@ -58,7 +58,7 @@ kubectl apply -f paso2/deployment.yaml
 kubectl apply -f paso2/service.yaml
 ```
 
-### 4 - Creamos los ficheros del paso 3 y aplicamos:
+### 5 - Creamos los ficheros del paso 3 y aplicamos:
 
 - ingress.yaml
 
@@ -66,7 +66,7 @@ kubectl apply -f paso2/service.yaml
 kubectl apply -f paso3/ingress.yaml
 ```
 
-### 5 - Obtenemos la ip (ADDRESS)
+### 6 - Obtenemos la ip (ADDRESS)
 
 ```
 kubectl get ingress -n ejercicio-02
@@ -78,7 +78,7 @@ kubectl get ingress -n ejercicio-02
 <ip-obtenida>   lc-todo.edu
 ```
 
-### 7 - Accedemos al navegador para ver la aplicación o para ver la api
+### 8 - Accedemos al navegador para ver la aplicación o para ver la api
 
 ```
 lc-todo.edu
