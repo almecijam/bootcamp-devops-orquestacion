@@ -46,6 +46,13 @@ kubectl apply -f paso1/service.yaml
 
 ```
 
+- statefulset.yaml
+
+```
+kubectl apply -f paso1/statefulset.yaml
+
+```
+
 - Añadimos los datos a la base de datos como indica el ejercicio.
 
 ### 3 - Creamos los ficheros del paso 2 y aplicamos:
